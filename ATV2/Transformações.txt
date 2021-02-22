@@ -1,0 +1,152 @@
+transforms: 
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1603828830
+        nsecs: 896852280
+      frame_id: "world"
+    child_frame_id: "map"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+---
+transforms: 
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1603828830
+        nsecs: 825390317
+      frame_id: "map"
+    child_frame_id: "tf1"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 0.0
+        w: 1.0
+---
+transforms: 
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1603828830
+        nsecs: 846580028
+      frame_id: "base_link"
+    child_frame_id: "link1"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.155
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 0.454363683811
+        w: 0.890816278945
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1603828830
+        nsecs: 846580028
+      frame_id: "link1"
+    child_frame_id: "link2"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.125
+      rotation: 
+        x: 0.0
+        y: 0.319753197825
+        z: 0.0
+        w: 0.947500866744
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1603828830
+        nsecs: 846580028
+      frame_id: "link2"
+    child_frame_id: "link3"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.21
+      rotation: 
+        x: 0.0
+        y: 0.420465817707
+        z: 0.0
+        w: 0.907308379847
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1603828830
+        nsecs: 846580028
+      frame_id: "link3"
+    child_frame_id: "link4"
+    transform: 
+      translation: 
+        x: -0.075
+        y: 0.0
+        z: 0.0
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 0.36838418088
+        w: 0.929673649878
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1603828830
+        nsecs: 846580028
+      frame_id: "link4"
+    child_frame_id: "link5"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.21
+      rotation: 
+        x: 0.0
+        y: -0.67130674114
+        z: 0.0
+        w: 0.741179640371
+  - 
+    header: 
+      seq: 0
+      stamp: 
+        secs: 1603828830
+        nsecs: 846580028
+      frame_id: "link5"
+    child_frame_id: "link6"
+    transform: 
+      translation: 
+        x: 0.0
+        y: 0.0
+        z: 0.07
+      rotation: 
+        x: 0.0
+        y: 0.0
+        z: 0.691840782989
+        w: 0.722050088978
+---
+
+
